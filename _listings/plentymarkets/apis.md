@@ -11,11 +11,91 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: SKU
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: plentymarkets REST-API - Create an additional SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-additional-skus-post
+  description: Creates an additional SKU. The ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-additional-skus-post-openapi.md
+- name: plentymarkets REST-API - Delete an additional SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-delete
+  description: Deletes an additional SKU. The ID of the additional SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-delete-openapi.md
+- name: plentymarkets REST-API - Gets an additional SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-get
+  description: Gets an additional SKU. The ID of the additional SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-get-openapi.md
+- name: plentymarkets REST-API - Update an additional SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-put
+  description: Updates an additional SKU. The ID of the additional SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-additional-skusadditionalskuid-put-openapi.md
+- name: plentymarkets REST-API - Create an SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-skus-post
+  description: Creates an SKU. The ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-skus-post-openapi.md
+- name: plentymarkets REST-API - Delete an SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-skusskuid-delete
+  description: Deletes an SKU. The ID of the SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-skusskuid-delete-openapi.md
+- name: plentymarkets REST-API - Get an SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-skusskuid-get
+  description: Gets an SKU. The ID of the SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-skusskuid-get-openapi.md
+- name: plentymarkets REST-API - Update an SKU
+  x-api-slug: restitemsidvariationsvariationidvariation-skusskuid-put
+  description: Updates an SKU. The ID of the SKU must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-skusskuid-put-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

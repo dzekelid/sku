@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: SKU
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/azure-cognitive-services/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CognitiveServicesManagementClient - Check Sku Availability List
+  x-api-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post
+  description: Check available SKUs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
+  humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
+  baseURL: ://management.azure.com//
+  tags: Cognitive, Machine Learning, Microsoft, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sku/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.cdn.api.gallery.streamdata.io
